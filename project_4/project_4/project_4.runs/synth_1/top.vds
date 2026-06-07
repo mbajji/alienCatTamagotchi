@@ -1,0 +1,735 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Jun  1 11:48:57 2026
+# Process ID: 18436
+# Current directory: C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.runs/synth_1
+# Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.runs/synth_1/top.vds
+# Journal file: C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 20392 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 435.051 ; gain = 95.738
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:1]
+	Parameter STATE_SCANNING bound to: 3'b000 
+	Parameter STATE_IDLE bound to: 3'b001 
+	Parameter STATE_EAT bound to: 3'b010 
+	Parameter STATE_SHOWER bound to: 3'b011 
+	Parameter STATE_SLEEP bound to: 3'b100 
+	Parameter STATE_CRY bound to: 3'b101 
+	Parameter STATE_DIE bound to: 3'b110 
+	Parameter STATE_WELCOME bound to: 3'b111 
+	Parameter WIDTH bound to: 64 - type: integer 
+	Parameter HEIGHT bound to: 64 - type: integer 
+	Parameter SCALE bound to: 2 - type: integer 
+	Parameter SPRITE_X bound to: 200 - type: integer 
+	Parameter SPRITE_Y bound to: 80 - type: integer 
+	Parameter HEALTH_X bound to: 40 - type: integer 
+	Parameter HEALTH_Y bound to: 260 - type: integer 
+	Parameter FOOD_X bound to: 440 - type: integer 
+	Parameter FOOD_Y bound to: 260 - type: integer 
+	Parameter SCAN_X bound to: 288 - type: integer 
+	Parameter SCAN_Y bound to: 176 - type: integer 
+	Parameter SHOWER_X bound to: 40 - type: integer 
+	Parameter SHOWER_Y bound to: 350 - type: integer 
+	Parameter SLEEP_X bound to: 440 - type: integer 
+	Parameter SLEEP_Y bound to: 350 - type: integer 
+	Parameter IN_X bound to: 240 - type: integer 
+	Parameter IN_Y bound to: 305 - type: integer 
+	Parameter AREA51_X bound to: 200 - type: integer 
+	Parameter AREA51_Y bound to: 120 - type: integer 
+	Parameter BOND_X bound to: 288 - type: integer 
+	Parameter BOND_Y bound to: 260 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'idle_1.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:107]
+INFO: [Synth 8-3876] $readmem data file 'idle_2.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:108]
+INFO: [Synth 8-3876] $readmem data file 'bond.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:110]
+INFO: [Synth 8-3876] $readmem data file 'area51.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:111]
+INFO: [Synth 8-3876] $readmem data file 'eat_01.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:113]
+INFO: [Synth 8-3876] $readmem data file 'eat_02.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:114]
+INFO: [Synth 8-3876] $readmem data file 'eat_03.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:115]
+INFO: [Synth 8-3876] $readmem data file 'eat_04.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:116]
+INFO: [Synth 8-3876] $readmem data file 'eat_05.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:117]
+INFO: [Synth 8-3876] $readmem data file 'eat_06.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:118]
+INFO: [Synth 8-3876] $readmem data file 'eat_07.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:119]
+INFO: [Synth 8-3876] $readmem data file 'eat_08.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:120]
+INFO: [Synth 8-3876] $readmem data file 'shower_01.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:122]
+INFO: [Synth 8-3876] $readmem data file 'shower_02.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:123]
+INFO: [Synth 8-3876] $readmem data file 'shower_03.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:124]
+INFO: [Synth 8-3876] $readmem data file 'shower_04.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:125]
+INFO: [Synth 8-3876] $readmem data file 'shower_05.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:126]
+INFO: [Synth 8-3876] $readmem data file 'shower_06.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:127]
+INFO: [Synth 8-3876] $readmem data file 'shower_07.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:128]
+INFO: [Synth 8-3876] $readmem data file 'shower_08.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:129]
+INFO: [Synth 8-3876] $readmem data file 'shower_09.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:130]
+INFO: [Synth 8-3876] $readmem data file 'shower_10.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:131]
+INFO: [Synth 8-3876] $readmem data file 'shower_11.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:132]
+INFO: [Synth 8-3876] $readmem data file 'shower_12.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:133]
+INFO: [Synth 8-3876] $readmem data file 'sleep_0.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:135]
+INFO: [Synth 8-3876] $readmem data file 'sleep_1.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:136]
+INFO: [Synth 8-3876] $readmem data file 'sleep_2.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:137]
+INFO: [Synth 8-3876] $readmem data file 'sleep_3.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:138]
+INFO: [Synth 8-3876] $readmem data file 'sleep_4.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:139]
+INFO: [Synth 8-3876] $readmem data file 'sleep_5.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:140]
+INFO: [Synth 8-3876] $readmem data file 'sleep_6.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:141]
+INFO: [Synth 8-3876] $readmem data file 'h_1.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:143]
+INFO: [Synth 8-3876] $readmem data file 'h_2.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:143]
+INFO: [Synth 8-3876] $readmem data file 'h_3.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:143]
+INFO: [Synth 8-3876] $readmem data file 'h_4.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:143]
+INFO: [Synth 8-3876] $readmem data file 'h_5.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:144]
+INFO: [Synth 8-3876] $readmem data file 'h_6.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:144]
+INFO: [Synth 8-3876] $readmem data file 'h_7.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:144]
+INFO: [Synth 8-3876] $readmem data file 'h_8.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:144]
+INFO: [Synth 8-3876] $readmem data file 'food_00.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:146]
+INFO: [Synth 8-3876] $readmem data file 'food_01.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:147]
+INFO: [Synth 8-3876] $readmem data file 'food_02.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:147]
+INFO: [Synth 8-3876] $readmem data file 'food_03.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:147]
+INFO: [Synth 8-3876] $readmem data file 'food_04.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:148]
+INFO: [Synth 8-3876] $readmem data file 'food_05.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:148]
+INFO: [Synth 8-3876] $readmem data file 'food_06.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:148]
+INFO: [Synth 8-3876] $readmem data file 'food_07.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:149]
+INFO: [Synth 8-3876] $readmem data file 'food_08.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:149]
+INFO: [Synth 8-3876] $readmem data file 'food_09.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:149]
+INFO: [Synth 8-3876] $readmem data file 'food_10.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:150]
+INFO: [Synth 8-3876] $readmem data file 'food_11.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:150]
+INFO: [Synth 8-3876] $readmem data file 'food_12.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:150]
+INFO: [Synth 8-3876] $readmem data file 'food_13.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:151]
+INFO: [Synth 8-3876] $readmem data file 'food_14.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:151]
+INFO: [Synth 8-3876] $readmem data file 'food_15.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:151]
+INFO: [Synth 8-3876] $readmem data file 'food_16.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:152]
+INFO: [Synth 8-3876] $readmem data file 'food_17.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:152]
+INFO: [Synth 8-3876] $readmem data file 'food_18.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:152]
+INFO: [Synth 8-3876] $readmem data file 'food_19.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:153]
+INFO: [Synth 8-3876] $readmem data file 'food_20.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:153]
+INFO: [Synth 8-3876] $readmem data file 'food_21.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:153]
+INFO: [Synth 8-3876] $readmem data file 'barShower00.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:155]
+INFO: [Synth 8-3876] $readmem data file 'barShower01.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:155]
+INFO: [Synth 8-3876] $readmem data file 'barShower02.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:155]
+INFO: [Synth 8-3876] $readmem data file 'barShower03.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:156]
+INFO: [Synth 8-3876] $readmem data file 'barShower04.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:156]
+INFO: [Synth 8-3876] $readmem data file 'barShower05.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:156]
+INFO: [Synth 8-3876] $readmem data file 'barShower06.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:157]
+INFO: [Synth 8-3876] $readmem data file 'barShower07.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:157]
+INFO: [Synth 8-3876] $readmem data file 'barShower08.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:157]
+INFO: [Synth 8-3876] $readmem data file 'barShower09.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:158]
+INFO: [Synth 8-3876] $readmem data file 'barShower10.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:158]
+INFO: [Synth 8-3876] $readmem data file 'barShower11.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:158]
+INFO: [Synth 8-3876] $readmem data file 'barShower12.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:159]
+INFO: [Synth 8-3876] $readmem data file 'barShower13.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:159]
+INFO: [Synth 8-3876] $readmem data file 'barShower14.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:159]
+INFO: [Synth 8-3876] $readmem data file 'barShower15.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:160]
+INFO: [Synth 8-3876] $readmem data file 'barShower16.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:160]
+INFO: [Synth 8-3876] $readmem data file 'barShower17.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:160]
+INFO: [Synth 8-3876] $readmem data file 'barShower18.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:161]
+INFO: [Synth 8-3876] $readmem data file 'barShower19.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:161]
+INFO: [Synth 8-3876] $readmem data file 'barShower20.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:161]
+INFO: [Synth 8-3876] $readmem data file 'barShower21.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:162]
+INFO: [Synth 8-3876] $readmem data file 'barShower22.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:162]
+INFO: [Synth 8-3876] $readmem data file 'barShower23.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:162]
+INFO: [Synth 8-3876] $readmem data file 'barSleep00.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:164]
+INFO: [Synth 8-3876] $readmem data file 'barSleep01.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:164]
+INFO: [Synth 8-3876] $readmem data file 'barSleep02.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:164]
+INFO: [Synth 8-3876] $readmem data file 'barSleep03.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:165]
+INFO: [Synth 8-3876] $readmem data file 'barSleep04.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:165]
+INFO: [Synth 8-3876] $readmem data file 'barSleep05.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:165]
+INFO: [Synth 8-3876] $readmem data file 'barSleep06.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:166]
+INFO: [Synth 8-3876] $readmem data file 'barSleep07.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:166]
+INFO: [Synth 8-3876] $readmem data file 'barSleep08.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:166]
+INFO: [Synth 8-3876] $readmem data file 'barSleep09.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:167]
+INFO: [Synth 8-3876] $readmem data file 'barSleep10.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:167]
+INFO: [Synth 8-3876] $readmem data file 'barSleep11.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:167]
+INFO: [Synth 8-3876] $readmem data file 'barSleep12.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:168]
+INFO: [Synth 8-3876] $readmem data file 'barSleep13.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:168]
+INFO: [Synth 8-3876] $readmem data file 'barSleep14.mem' is read successfully [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:168]
+INFO: [Common 17-14] Message 'Synth 8-3876' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-6157] synthesizing module 'vga_controller' [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/vga_controller.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'vga_controller' (1#1) [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/vga_controller.v:1]
+INFO: [Synth 8-226] default block is never used [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:388]
+INFO: [Synth 8-226] default block is never used [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:474]
+INFO: [Synth 8-6155] done synthesizing module 'top' (2#1) [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/sources_1/new/top.v:1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 886.770 ; gain = 547.457
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 886.770 ; gain = 547.457
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 886.770 ; gain = 547.457
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/constrs_1/imports/Maheswari_and_Britney_s26/Basys-3-Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'upload_data[0]'. [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/constrs_1/imports/Maheswari_and_Britney_s26/Basys-3-Master.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/constrs_1/imports/Maheswari_and_Britney_s26/Basys-3-Master.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'upload_data[1]'. [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/constrs_1/imports/Maheswari_and_Britney_s26/Basys-3-Master.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/constrs_1/imports/Maheswari_and_Britney_s26/Basys-3-Master.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'upload_data[2]'. [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/constrs_1/imports/Maheswari_and_Britney_s26/Basys-3-Master.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/constrs_1/imports/Maheswari_and_Britney_s26/Basys-3-Master.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'upload_data[3]'. [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/constrs_1/imports/Maheswari_and_Britney_s26/Basys-3-Master.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/constrs_1/imports/Maheswari_and_Britney_s26/Basys-3-Master.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'upload_addr[0]'. [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/constrs_1/imports/Maheswari_and_Britney_s26/Basys-3-Master.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/constrs_1/imports/Maheswari_and_Britney_s26/Basys-3-Master.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'upload_addr[1]'. [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/constrs_1/imports/Maheswari_and_Britney_s26/Basys-3-Master.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/constrs_1/imports/Maheswari_and_Britney_s26/Basys-3-Master.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'upload_addr[2]'. [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/constrs_1/imports/Maheswari_and_Britney_s26/Basys-3-Master.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/constrs_1/imports/Maheswari_and_Britney_s26/Basys-3-Master.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'upload_addr[3]'. [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/constrs_1/imports/Maheswari_and_Britney_s26/Basys-3-Master.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/constrs_1/imports/Maheswari_and_Britney_s26/Basys-3-Master.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'upload_addr[4]'. [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/constrs_1/imports/Maheswari_and_Britney_s26/Basys-3-Master.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/constrs_1/imports/Maheswari_and_Britney_s26/Basys-3-Master.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'upload_addr[5]'. [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/constrs_1/imports/Maheswari_and_Britney_s26/Basys-3-Master.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/constrs_1/imports/Maheswari_and_Britney_s26/Basys-3-Master.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'upload_addr[6]'. [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/constrs_1/imports/Maheswari_and_Britney_s26/Basys-3-Master.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/constrs_1/imports/Maheswari_and_Britney_s26/Basys-3-Master.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'upload_addr[7]'. [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/constrs_1/imports/Maheswari_and_Britney_s26/Basys-3-Master.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/constrs_1/imports/Maheswari_and_Britney_s26/Basys-3-Master.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'upload_addr[8]'. [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/constrs_1/imports/Maheswari_and_Britney_s26/Basys-3-Master.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/constrs_1/imports/Maheswari_and_Britney_s26/Basys-3-Master.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'upload_addr[9]'. [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/constrs_1/imports/Maheswari_and_Britney_s26/Basys-3-Master.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/constrs_1/imports/Maheswari_and_Britney_s26/Basys-3-Master.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'upload_addr[10]'. [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/constrs_1/imports/Maheswari_and_Britney_s26/Basys-3-Master.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/constrs_1/imports/Maheswari_and_Britney_s26/Basys-3-Master.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'upload_addr[11]'. [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/constrs_1/imports/Maheswari_and_Britney_s26/Basys-3-Master.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/constrs_1/imports/Maheswari_and_Britney_s26/Basys-3-Master.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/constrs_1/imports/Maheswari_and_Britney_s26/Basys-3-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.srcs/constrs_1/imports/Maheswari_and_Britney_s26/Basys-3-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1136.219 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 1136.219 ; gain = 796.906
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 1136.219 ; gain = 796.906
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 1136.219 ; gain = 796.906
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "v_count" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "current_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "slow_clk" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:54 ; elapsed = 00:01:02 . Memory (MB): peak = 1375.984 ; gain = 1036.672
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------+------------+----------+
+|      |RTL Partition |Replication |Instances |
++------+--------------+------------+----------+
+|1     |top__GB0      |           1|     30851|
+|2     |top__GB1      |           1|      9144|
+|3     |top__GB2      |           1|     18288|
+|4     |top__GB3      |           1|     29249|
+|5     |top__GB4      |           1|      7620|
+|6     |top__GB5      |           1|     27432|
+|7     |top__GB6      |           1|     11532|
+|8     |top__GB7      |           1|      2164|
+|9     |top__GB8      |           1|     32391|
+|10    |top__GB9      |           1|     12276|
+|11    |top__GB10     |           1|     19102|
++------+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 11    
+	   2 Input     29 Bit       Adders := 3     
+	   2 Input     28 Bit       Adders := 2     
+	   2 Input     26 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      5 Bit       Adders := 4     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               29 Bit    Registers := 3     
+	               28 Bit    Registers := 2     
+	               26 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 3     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     29 Bit        Muxes := 3     
+	   8 Input     28 Bit        Muxes := 1     
+	   2 Input     28 Bit        Muxes := 3     
+	   2 Input     26 Bit        Muxes := 1     
+	   8 Input     12 Bit        Muxes := 2     
+	  23 Input     12 Bit        Muxes := 1     
+	  25 Input     12 Bit        Muxes := 2     
+	   3 Input     12 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 13    
+	   7 Input     12 Bit        Muxes := 1     
+	  13 Input     12 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 8     
+	   2 Input      4 Bit        Muxes := 7     
+	   2 Input      3 Bit        Muxes := 17    
+	   5 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 46    
+	   8 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module top 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 11    
+	   2 Input     29 Bit       Adders := 3     
+	   2 Input     28 Bit       Adders := 2     
+	   2 Input     26 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 4     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 2     
++---Registers : 
+	               29 Bit    Registers := 3     
+	               28 Bit    Registers := 2     
+	               26 Bit    Registers := 1     
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 3     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     29 Bit        Muxes := 3     
+	   8 Input     28 Bit        Muxes := 1     
+	   2 Input     28 Bit        Muxes := 3     
+	   2 Input     26 Bit        Muxes := 1     
+	   8 Input     12 Bit        Muxes := 2     
+	  23 Input     12 Bit        Muxes := 1     
+	  25 Input     12 Bit        Muxes := 2     
+	   3 Input     12 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 13    
+	   7 Input     12 Bit        Muxes := 1     
+	  13 Input     12 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 8     
+	   2 Input      4 Bit        Muxes := 7     
+	   2 Input      3 Bit        Muxes := 17    
+	   5 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 45    
+	   8 Input      1 Bit        Muxes := 4     
+Module vga_controller 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5580] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "vc/v_count" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:22 ; elapsed = 00:02:54 . Memory (MB): peak = 1375.984 ; gain = 1036.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------+------------+---------------+----------------+
+|Module Name | RTL Object | Depth x Width | Implemented As | 
++------------+------------+---------------+----------------+
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
+|top         | p_0_out    | 4096x12       | LUT            | 
++------------+------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------+------------+----------+
+|      |RTL Partition |Replication |Instances |
++------+--------------+------------+----------+
+|1     |top__GB0      |           1|      2831|
+|2     |top__GB1      |           1|      1009|
+|3     |top__GB2      |           1|      2040|
+|4     |top__GB3      |           1|      3029|
+|5     |top__GB4      |           1|       633|
+|6     |top__GB5      |           1|      1788|
+|7     |top__GB6      |           1|      1485|
+|8     |top__GB7      |           1|       750|
+|9     |top__GB8      |           1|     16876|
+|10    |top__GB9      |           1|      3938|
+|11    |top__GB10     |           1|      4840|
++------+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:32 ; elapsed = 00:03:06 . Memory (MB): peak = 1388.387 ; gain = 1049.074
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:36 ; elapsed = 00:03:10 . Memory (MB): peak = 1438.121 ; gain = 1098.809
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------+------------+----------+
+|      |RTL Partition |Replication |Instances |
++------+--------------+------------+----------+
+|1     |top__GB0      |           1|      2831|
+|2     |top__GB1      |           1|      1009|
+|3     |top__GB2      |           1|      2040|
+|4     |top__GB3      |           1|      2968|
+|5     |top__GB4      |           1|       633|
+|6     |top__GB5      |           1|      1788|
+|7     |top__GB6      |           1|      1274|
+|8     |top__GB7      |           1|       750|
+|9     |top__GB8      |           1|     16868|
+|10    |top__GB9      |           1|      3938|
+|11    |top__GB10     |           1|      4802|
++------+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:39 ; elapsed = 00:03:25 . Memory (MB): peak = 1438.121 ; gain = 1098.809
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------+------------+----------+
+|      |RTL Partition |Replication |Instances |
++------+--------------+------------+----------+
+|1     |top__GB0      |           1|       792|
+|2     |top__GB1      |           1|       266|
+|3     |top__GB2      |           1|       606|
+|4     |top__GB3      |           1|       569|
+|5     |top__GB4      |           1|       137|
+|6     |top__GB5      |           1|       411|
+|7     |top__GB6      |           1|       406|
+|8     |top__GB7      |           1|       208|
+|9     |top__GB8      |           1|      5939|
+|10    |top__GB9      |           1|      1047|
+|11    |top__GB10     |           1|      1836|
++------+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:42 ; elapsed = 00:03:29 . Memory (MB): peak = 1438.121 ; gain = 1098.809
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:42 ; elapsed = 00:03:29 . Memory (MB): peak = 1438.121 ; gain = 1098.809
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:43 ; elapsed = 00:03:29 . Memory (MB): peak = 1438.121 ; gain = 1098.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:43 ; elapsed = 00:03:29 . Memory (MB): peak = 1438.121 ; gain = 1098.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:47 ; elapsed = 00:03:34 . Memory (MB): peak = 1438.121 ; gain = 1098.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:47 ; elapsed = 00:03:34 . Memory (MB): peak = 1438.121 ; gain = 1098.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |    42|
+|3     |LUT1   |     7|
+|4     |LUT2   |   293|
+|5     |LUT3   |   426|
+|6     |LUT4   |   619|
+|7     |LUT5   |  1618|
+|8     |LUT6   |  7712|
+|9     |MUXF7  |  1279|
+|10    |MUXF8  |   245|
+|11    |FDRE   |   369|
+|12    |IBUF   |     6|
+|13    |OBUF   |    14|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+---------------+------+
+|      |Instance |Module         |Cells |
++------+---------+---------------+------+
+|1     |top      |               | 12632|
+|2     |  vc     |vga_controller | 12049|
++------+---------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:47 ; elapsed = 00:03:34 . Memory (MB): peak = 1438.121 ; gain = 1098.809
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:34 ; elapsed = 00:03:27 . Memory (MB): peak = 1438.121 ; gain = 849.359
+Synthesis Optimization Complete : Time (s): cpu = 00:02:47 ; elapsed = 00:03:36 . Memory (MB): peak = 1438.121 ; gain = 1098.809
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 1572 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'top' is not ideal for floorplanning, since the cellview 'vga_controller' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+124 Infos, 17 Warnings, 16 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:51 ; elapsed = 00:03:39 . Memory (MB): peak = 1438.121 ; gain = 1111.246
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Student/Desktop/Maheswari_and_Britney_s26/project_4/project_4.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.119 . Memory (MB): peak = 1438.121 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Jun  1 11:52:47 2026...
